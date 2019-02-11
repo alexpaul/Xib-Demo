@@ -99,5 +99,5 @@ Constructing a View this way makes it very flexible to be reused in a different 
 
 ## Readings 
 
-[Stackoverflow - What is the difference between NIB and XIB](https://stackoverflow.com/questions/3726400/what-is-the-difference-between-nib-and-xib-interface-builder-file-formats) 
+[Stackoverflow - What is the difference between NIB and XIB](https://stackoverflow.com/questions/3726400/what-is-the-difference-between-nib-and-xib-interface-builder-file-formats)   
 [Nib file - Apple Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/NibFile.html)      
