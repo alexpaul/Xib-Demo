@@ -28,7 +28,7 @@ class LoginView: UIView {
   }
   
   private func commonInit() {
-    // register nib file
+    // load the nib file
     Bundle.main.loadNibNamed("LoginView", owner: self, options: nil)
     addSubview(contentView)
     contentView.frame = bounds
