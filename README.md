@@ -47,6 +47,8 @@ Implement the init(frame) and init(coder) initializers.
 
 Create a commonInit() helper method that bridges both initializers. Reminder: if coming from storyboard or nib file the init(coder) will get called. If coming from programmatic ui code, init(frame) will get called. Here we are taking care of both cases. 
 
+![xib file](https://github.com/alexpaul/Xib-Demo/blob/master/Images/xib-file.png)     
+
 ## 5. Completed LoginView.swift file 
 
 ```swift 
@@ -70,7 +72,7 @@ class LoginView: UIView {
   }
   
   private func commonInit() {
-    // register nib file
+    // load the nib file
     Bundle.main.loadNibNamed("LoginView", owner: self, options: nil)
     addSubview(contentView)
     contentView.frame = bounds
@@ -91,7 +93,11 @@ You should now see the Login View as designed in the .xib file.
 
 Constructing a View this way makes it very flexible to be reused in a different project or view controller as needed. Especially with Login View's as they are resused so much more. 
 
+<p align="center">
+  <img src="https://github.com/alexpaul/Xib-Demo/blob/master/Images/xib-demo.png" width="314" height="636" />
+</p> 
 
 ## Readings 
 
-[Stackoverflow - What is the difference between NIB and XIB](https://stackoverflow.com/questions/3726400/what-is-the-difference-between-nib-and-xib-interface-builder-file-formats)   
+[Stackoverflow - What is the difference between NIB and XIB](https://stackoverflow.com/questions/3726400/what-is-the-difference-between-nib-and-xib-interface-builder-file-formats) 
+[Nib file - Apple Documentation](https://developer.apple.com/library/archive/documentation/General/Conceptual/DevPedia-CocoaCore/NibFile.html)      
