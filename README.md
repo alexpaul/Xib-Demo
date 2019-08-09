@@ -99,7 +99,7 @@ Constructing a View this way makes it very flexible to be reused in a different 
 
 ## Next Steps 
 
-For creating custom table view cells see the following [link]()
+For creating custom table view cells see the following [link](https://github.com/alexpaul/Xib-Demo/blob/master/Custom-TableViewCell-Xib.md)
 
 ## Readings 
 
