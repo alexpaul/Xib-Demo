@@ -1,6 +1,6 @@
-# Xib-Demo
-Create a XIB file for use as a subview for a view controller. 
+# Xib-Demo for Creating a Custom View for a ViewController
 
+Create a XIB file for use as a subview for a view controller. 
 
 ## 1. Create a new View file 
 
@@ -96,6 +96,10 @@ Constructing a View this way makes it very flexible to be reused in a different 
 <p align="center">
   <img src="https://github.com/alexpaul/Xib-Demo/blob/master/Images/xib-demo.png" width="314" height="636" />
 </p> 
+
+## Next Steps 
+
+For creating custom table view cells see the following [link]()
 
 ## Readings 
 
