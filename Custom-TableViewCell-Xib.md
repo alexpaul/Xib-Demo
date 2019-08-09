@@ -50,4 +50,19 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 }
 ```
 
+In Objective-C 
+
+```objective-c 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+  PodcastCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PodcastCell"];
+  if (!cell) {
+    [tableView registerNib:[UINib nibWithNibName:@"PodcastCell" bundle:nil] forCellReuseIdentifier:@"PodcastCell"];
+    cell = [tableView dequeueReusableCellWithIdentifier:@"PodcastCell"];
+  }
+  Podcast *podcast = self.podcasts[indexPath.row];
+  cell.collectionNameLabel.text = podcast.collectionName;
+  return cell;
+}
+```
+
 At this point you should have successfully created and are able to run and see your custom table view cell. 🎉
