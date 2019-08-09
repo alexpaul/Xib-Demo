@@ -1,4 +1,4 @@
-# Create Custom View for UITableViewCell using a .xib file
+# Create Custom Cell for UITableViewCell using a .xib file
 
 ## Create an empty View 
 
